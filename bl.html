@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backend Developer Darslari</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f7fb;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a, #2563eb);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1300px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .content h2 {
+      color: #2563eb;
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+
+    .content p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    .video-btn {
+      display: inline-block;
+      text-decoration: none;
+      background: #2563eb;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 10px;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .video-btn:hover {
+      background: #1e40af;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #0f172a;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Backend Developer Yo‘li</h1>
+  <p>Backend dasturlashni o‘rganish uchun 10 ta muhim mavzu</p>
+</header>
+
+<section class="container">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4" alt="HTML va CSS">
+    <div class="content">
+      <h2>1. HTML va CSS</h2>
+      <p>Backend dasturchi frontend asoslarini ham bilishi kerak. HTML sayt strukturasi uchun, CSS esa dizayn uchun ishlatiladi.</p>
+      <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="JavaScript">
+    <div class="content">
+      <h2>2. JavaScript</h2>
+      <p>JavaScript backend va frontend uchun eng mashhur dasturlash tillaridan biridir. Node.js bilan server yaratish mumkin.</p>
+      <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935" alt="PHP">
+    <div class="content">
+      <h2>3. PHP</h2>
+      <p>PHP backend dasturlash uchun kuchli til hisoblanadi. Laravel frameworki bilan katta loyihalar yaratiladi.</p>
+      <a href="https://www.youtube.com/watch?v=OK_JCtrrv-c" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d" alt="MySQL">
+    <div class="content">
+      <h2>4. MySQL</h2>
+      <p>Ma'lumotlar bazasi backendning yuragi hisoblanadi. MySQL yordamida ma'lumotlarni saqlash va boshqarish mumkin.</p>
+      <a href="https://www.youtube.com/watch?v=7S_tz1z_5bA" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea" alt="API">
+    <div class="content">
+      <h2>5. API</h2>
+      <p>API frontend va backend o‘rtasidagi bog‘lanishni ta’minlaydi. REST API eng ko‘p ishlatiladigan texnologiyadir.</p>
+      <a href="https://www.youtube.com/watch?v=-MTSQjw5DrM" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Git va GitHub">
+    <div class="content">
+      <h2>6. Git va GitHub</h2>
+      <p>Git loyiha versiyalarini boshqarish uchun ishlatiladi. GitHub esa kodlarni internetda saqlash platformasi.</p>
+      <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd" alt="Node.js">
+    <div class="content">
+      <h2>7. Node.js</h2>
+      <p>Node.js JavaScript yordamida backend yaratish imkonini beradi. Tez va zamonaviy texnologiya hisoblanadi.</p>
+      <a href="https://www.youtube.com/watch?v=TlB_eWDSMt4" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Laravel">
+    <div class="content">
+      <h2>8. Laravel</h2>
+      <p>Laravel PHP frameworki bo‘lib, xavfsiz va professional backend yaratishda ishlatiladi.</p>
+      <a href="https://www.youtube.com/watch?v=MYyJ4PuL4pY" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Xavfsizlik">
+    <div class="content">
+      <h2>9. Backend Xavfsizligi</h2>
+      <p>Backend dasturchi sayt xavfsizligini bilishi kerak. SQL Injection va XSS hujumlaridan himoyalanish muhim.</p>
+      <a href="https://www.youtube.com/watch?v=WlmKwIe9z1Q" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998" alt="Deployment">
+    <div class="content">
+      <h2>10. Deployment</h2>
+      <p>Deployment saytni internetga joylash jarayonidir. Hosting va server bilan ishlashni o‘rganish kerak.</p>
+      <a href="https://www.youtube.com/watch?v=6-RtA6Flbgc" target="_blank" class="video-btn">Video Dars</a>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <h3>Backend Developer Roadmap 2026</h3>
+  <p>HTML va CSS yordamida yaratildi</p>
+</footer>
+
+</body>
+</html>
